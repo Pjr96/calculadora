@@ -1,0 +1,30 @@
+<?php
+
+calculadora
+{
+    public num1;
+    public num2;
+
+    public function __construct(num1, num2)
+    {
+        $this->num = num;
+    }
+
+    public function showResults()
+    {
+        return $this->num->getResult();
+    }
+    public function calculo()
+    {
+        switch ($this->operacao) 
+        case '+':
+            $this->impressao_result($this->soma());
+            break;
+        case '-':
+            $this->impressao_result($this->subtracao());
+            break;
+        case '*':
+            $this->impressao_result($this->multiplicacao());
+            break;
+        case '/':
+  }
